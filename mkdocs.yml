@@ -1,0 +1,15 @@
+site_name: 'production'
+site_description: 'Documentation for Confluent Cloud Environment production'
+
+nav:
+  - Home: index.md
+  - Environment Details: environment-details.md
+  - Operations: operations.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
